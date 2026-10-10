@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Outfit', 'Noto Sans Sinhala', 'Noto Sans Tamil', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cinzel', 'Noto Sans Sinhala', 'Noto Sans Tamil', Georgia, serif;
+  }
+}
+
+/* Railway custom accents */
+:root {
+  --railway-green-dark: #091b14;
+  --railway-green: #1b4332;
+  --railway-gold: #d4af37;
+  --railway-cream: #fcfbf7;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #2d6a4f;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1b4332;
+}
